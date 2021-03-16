@@ -23,7 +23,11 @@ const menus = [
     to: '/products',
     exact: false
   },
-  
+  {
+    name: 'Login',
+    to: '/login',
+    exact: false
+  },
 ]
 
 const MyCustomNavLink = ({ label, to, activeOnlyWhenExact }) => {
