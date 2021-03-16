@@ -24,8 +24,8 @@ const routes = [
     {
         path: '/about',
         exact: true,
-        main: () => {
-            return <About />
+        main: ({ location }) => {
+            return <About location={location} />
         }
     },
     {
@@ -38,8 +38,8 @@ const routes = [
     {
         path: '/login',
         exact: false,
-        main: () => {
-            return <Login />
+        main: ({ location }) => {
+            return <Login location={location} />
         }
     },
     {
