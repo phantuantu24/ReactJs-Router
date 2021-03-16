@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import MenuList from './components/MenuList/MenuList';
-import routes from './App.routing'
+import routes from './App-routing'
 
 function App() {
 
